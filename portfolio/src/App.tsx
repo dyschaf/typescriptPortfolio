@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './component/Navbar';
+import Nav_page from './component/Nav_page';
 import Home from './component/Home';
 import Footer from './component/Footer'
 import logo from './logo.svg';
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <>
-    <Navbar/>
+    <Nav_page/>
     <Home/>
     <Footer/>
     

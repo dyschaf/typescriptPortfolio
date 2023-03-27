@@ -1,4 +1,7 @@
 import React from 'react';
+import ComparePhoneSpecs from "./img/Compare-Phone-Specs-1.png"
+import CryptocurrencyTradingPlatform from "./img/Cryptocurrency-Trading-Platform.png"
+import CardGameWar from "./img/Card-Game-War.png"
 
 import Project from './Project';
 
@@ -15,19 +18,19 @@ function Projects(){
           id: 2,
           title: "Compare Phone Specs",
           description: "Simple app that you can use to compare phones and see specs like when was this phone released, what's the price and how much battery it has.",
-          imgSrc: ""
+          imgSrc: ComparePhoneSpecs
         },
         {
           id: 3,
           title: "Cryptocurrency Trading Platform",
           description: "This application is a crypto wallet simulator that keeps track of your bitcoin, ethereum or dollar. You can buy and sell between the three currencies.",
-          imgSrc: ""
+          imgSrc: CryptocurrencyTradingPlatform
         },
         {
           id: 4,
           title: "Card Game War",
           description: "This was my first project. It's a card game where the person with the higher card wins the round and the cards.",
-          imgSrc: ""
+          imgSrc:CardGameWar
         }
     ];
     

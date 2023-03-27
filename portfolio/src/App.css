@@ -27,6 +27,77 @@
 .App-link {
   color: #61dafb;
 }
+#home{
+  justify-content: center;
+  text-align:left;
+
+}
+body {
+  background-color: #F5F5F5;
+  background-image: linear-gradient(to bottom, #F5F5F5, #E8E8E8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+#greetMe{
+  background-image: url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFF;  
+}
+#greetMe h1 {
+  align-items: center;
+  padding-top: 20vh;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
+#greetMe p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-shadow: 2px 2px #000;
+}
+#getToKnowMe{
+  width: 75vw;
+}
+.about div{
+  /* width: 25vw; */
+}
+.about div div{
+  /* width: 5vw; */
+  padding: 16px;
+  margin: 7px;
+  display:inline-flex;
+  background-color:#61dafb;
+}
+.container{
+  display: flex !important;
+  justify-content: space-between;
+}
+#Cryptocurrency-Trading-Platform{
+  background-image:url("img/Cryptocurrency-Trading-Platform.png");
+  
+  /* size: 200px; */
+}
+.projects div img{
+  /* justify-content: flex-start; */
+  height: 300px;
+  margin: 40px;
+  height: 150x; 
+}
+.infoProjects{
+  margin: 40px;
+  width: 40vw;
+}
 
 @keyframes App-logo-spin {
   from {
