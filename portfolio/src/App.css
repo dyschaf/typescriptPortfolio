@@ -84,7 +84,7 @@ body {
   justify-content: space-between;
 }
 #Cryptocurrency-Trading-Platform{
-  background-image:url("img/Cryptocurrency-Trading-Platform.png");
+  /* background-image:url("/img/Cryptocurrency-Trading-Platform.png"); */
   
   /* size: 200px; */
 }
@@ -98,7 +98,10 @@ body {
   margin: 40px;
   width: 40vw;
 }
-
+.form{
+  margin-left: 30vw;
+  width: 35vw;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
