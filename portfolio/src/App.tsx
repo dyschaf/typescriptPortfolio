@@ -9,24 +9,13 @@ import ErrorBoundary from './component/ErrorBoundary';
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useState, createContext } from "react";
 import { projects } from './component/ListProjects';
-// interface AppContextType {
-//   props: any;
-//   setProps: (props: any) => void;
-// }
-// const AppContext = createContext<AppContextType>({
-//   props:[],
-//   setProps:()=>{},
-//   });
+
 
 function App() {
-  // const [props, setProps] = useState([]);
-  // const appContextValue = {
-  //   props,
-  //   setProps,
-  // };
+
   return (
     <>
-    {/* <AppContext.Provider value={appContextValue}> */}
+  
     <Nav_page/>
     <ErrorBoundary fallback={<div>Something went wrong!</div>}>
     <Routes>
@@ -37,7 +26,7 @@ function App() {
     </Routes>
     </ErrorBoundary>
     <Footer/>
-    {/* </AppContext.Provider> */}
+    
     
     
     

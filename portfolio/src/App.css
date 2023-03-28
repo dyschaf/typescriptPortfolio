@@ -70,8 +70,9 @@ body {
 #getToKnowMe{
   width: 75vw;
 }
-.about div{
-  /* width: 25vw; */
+
+.mySkills{
+padding-left: 30px;
 }
 .about div div, .blue div{
   /* width: 5vw; */
@@ -81,15 +82,14 @@ body {
   background-color:#61dafb;
   border-radius: 8px;
 }
+#getToKnowMe{
+  padding-left: 30px;
+}
 .container{
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
 }
-#Cryptocurrency-Trading-Platform{
-  /* background-image:url("/img/Cryptocurrency-Trading-Platform.png"); */
-  
-  /* size: 200px; */
-}
+
 .projects div img{
   /* justify-content: flex-start; */
   height: 300px;
@@ -100,6 +100,9 @@ body {
   margin: 40px;
   width: 40vw;
   display: grid;
+}
+.infoProjects h3,.infoProjects p{
+  align-items: left;
 }
 button{
   /* size: 50px !important */
@@ -120,7 +123,7 @@ button{
 }
 .background{
 background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
-height: 90vh;
+height: 600px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -173,4 +176,115 @@ height: 350px;
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media screen and (max-width: 992px){
+  
+  .container {
+      display: block;
+  }
+  .mySkills{
+    margin-top: 20px;
+    padding-left: -30;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+  
+  }
+  #getToKnowMe{
+    width: 80vw;
+  }
+  .infoProjects{
+    text-align: left;
+    margin: 40px;
+    /* margin-left:auto; */
+    margin-left:20vw;;
+    margin-right:20vw;;
+    width: auto;
+    display: grid;
+  }
+  .form{
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: auto;
+  background:white;
+  padding: 50px
+  
+  
+} 
+  .navbar-toggler{
+    width: 100px;
+  }
+  }
+  .ProjectPageIMG{
+    height: 250px;
+    }
+    .projectContainer{
+      display: grid;
+      /* margin:20vw; */
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+
+@media screen and (max-width: 891px){
+  .projects div img{
+    /* justify-content: flex-start; */
+    height: 200px;
+    margin: 40px;
+    /* height: 150x;  */
+  }
+  .projects {
+    text-align:center;
+    
+
+}
+  .infoProjects{
+    text-align: left;
+    margin: 40px;
+    /* margin-left:auto; */
+    margin-left:25vw;;
+    margin-right:25vw;;
+    width: auto;
+    display: grid;
+  }
+  
+}
+@media screen and (max-width: 891px){
+  .ProjectPageIMG{
+    height: 150px;
+    }
+    
+}
+@media screen and (max-width: 517px){
+  .projects div img{
+    /* justify-content: flex-start; */
+    height: 140px;
+    margin: 20px;
+    /* height: 150x;  */
+  }
+  .footerCenter{
+    margin-left:auto;
+    
+  }
+  .infoProjects{
+    text-align: left;
+    margin: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    display: grid;
+  }
+ 
+    .form{
+      margin-left: 15vw;
+      width: 70vw;
+      background:white;
+      padding: 50px
+      
+    } 
+    #greetMe h1 {
+      
+      padding-top: 20px;
+      font-size: 2em;
+    }
 }

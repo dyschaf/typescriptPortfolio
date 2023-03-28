@@ -5,7 +5,6 @@ function Contact (){
         <h1 className="center" id={"contact"}>Contact</h1>
         <hr />
         <p className="center">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-    /d
         <Form className='form'>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>

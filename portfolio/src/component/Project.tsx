@@ -2,9 +2,6 @@ import React from 'react';
 import { Routes, Route, useNavigate } from "react-router-dom";
 import ProjectPage from './ProjectPage';
 function Project(props: any) {
-    console.log(props.id)
-    const backSlashUrl=props.title.replaceAll(' ',"-")
-    console.log(`/${backSlashUrl}`)
   return (
     <>
       <div className="container projects" id={`project-${props.id}`}>

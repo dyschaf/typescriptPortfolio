@@ -1,17 +1,18 @@
 function About(){
     const skills = [
-        "HTML",
-        "CSS",
-        "React",
-        "Node",
-        "Git",
-        "Python",
         "Javascript",
         "Typescript",
-        "Linux",
+        "Python",
+        "React",
+        "Node",
         "Express",
         "Beautifulsoup",
         "Bootstrap",
+        "Git",
+        "HTML",
+        "CSS",
+        "Linux",
+        
       ];
     return(
         <>
@@ -31,8 +32,8 @@ function About(){
                 </p>
                 <button onClick={()=>window.location.href ="#contact"}>Contact</button>
             </div>
-            <div>
-                <h1>My Skills</h1>
+            <div className="mySkills">
+                <h3>My Skills</h3>
                     {skills.map((skill) => (
                         <div key={skill}>{skill}</div>
                     ))}
