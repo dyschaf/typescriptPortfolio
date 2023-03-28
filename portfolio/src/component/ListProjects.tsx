@@ -15,7 +15,7 @@ export const projects = [
     projectLink:"https://github.com/dyschaf/typescriptPortfolio",
     projectsDescription:"After considerable effort and dedication, I am thrilled to announce the successful completion of my updated portfolio. In an effort to enhance my skills and broaden my knowledge, I undertook the task of teaching myself Typescript for the very first time, and I am proud to say that it was a challenging yet rewarding experience. This newly updated portfolio, which I have written with the React framework, serves as a testament to my unwavering commitment to self-improvement and growth as a developer. It is a tangible representation of the work I have done and the progress I have made throughout my career thus far. As I showcase this portfolio to potential employers, I am confident that it will serve as a testament to my skills and my dedication to my craft. I am excited to demonstrate the depth of my knowledge and expertise, and to prove that I am a valuable asset to any team. Overall, this project has been an immensely fulfilling endeavor, and I am excited to see where my continued growth and development will take me in the future.",
     skillsUsed:["React","TypeScript","HTML","CSS","GIT","GitHub"],
-    liveLink:""
+    liveLink:"https://typescript-portfolio-omega.vercel.app"
   },
   {
     id: 2,
