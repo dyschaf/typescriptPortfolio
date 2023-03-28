@@ -7,7 +7,7 @@ function About(){
         "Git",
         "Python",
         "Javascript",
-        "PHP",
+        "Typescript",
         "Linux",
         "Express",
         "Beautifulsoup",

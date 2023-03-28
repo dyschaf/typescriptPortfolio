@@ -16,7 +16,7 @@ function Contact (){
             <Form.Control className="grey"type="email" placeholder="name@example.com" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label>Message</Form.Label>
             <Form.Control  className="grey" as="textarea" rows={3} />
         </Form.Group>
         </Form>
