@@ -7,7 +7,7 @@ function Contact (){
         <hr />
         <p className="center">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         <form action="https://formsubmit.co/schaffeldovid@gmail.com" method="POST">
-        <Form className='form'>
+        <Form className='form'action="https://formsubmit.co/schaffeldovid@gmail.com" method="POST">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
             <Form.Control className="grey" type="text" placeholder="Full Name" />
