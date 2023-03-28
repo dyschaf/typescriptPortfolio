@@ -18,6 +18,7 @@ function Contact (){
             <Form.Label>Message</Form.Label>
             <Form.Control  className="grey" as="textarea" rows={3} />
         </Form.Group>
+        <input type="submit" />
         </Form>
     </div>
     )
