@@ -5,7 +5,8 @@ function Contact (){
         <h1 className="center" id={"contact"}>Contact</h1>
         <hr />
         <p className="center">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-        <Form action="https://formsubmit.co/schaffeldovid@gmail.com" method="POST">
+        <form action="https://formsubmit.co/schaffeldovid@gmail.com" method="POST">
+        <Form >
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
             <Form.Control className="grey" type="text" placeholder="Full Name" />
@@ -20,6 +21,7 @@ function Contact (){
         </Form.Group>
         <input type="submit" />
         </Form>
+        </form>
     </div>
     )
 }
