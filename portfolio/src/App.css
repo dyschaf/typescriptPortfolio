@@ -53,6 +53,13 @@ body {
   text-align: center;
   color: #4545452f;  
 }
+.fixed{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  /* position: relative; */
+ 
+}
 #greetMe h1 {
   align-items: center;
   padding-top: 20vh;

@@ -4,8 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 function Nav_page (){
     return(
+    <div className='fixed'>
     <Navbar bg="light" expand="lg">
-      <Container>
+      <Container >
         <Navbar.Brand href="/">DOVID SCHAFFEL</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -29,6 +30,7 @@ function Nav_page (){
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
         // <nav>
         //     <h3>DOVID SCHAFFEL</h3>
         //     <div>
