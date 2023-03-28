@@ -41,7 +41,8 @@ body {
   background-position: center center;
 }
 #greetMe{
-  background-image: url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
+  background-image: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -72,12 +73,13 @@ body {
 .about div{
   /* width: 25vw; */
 }
-.about div div{
+.about div div, .blue div{
   /* width: 5vw; */
   padding: 16px;
   margin: 7px;
   display:inline-flex;
   background-color:#61dafb;
+  border-radius: 8px;
 }
 .container{
   display: flex !important;
@@ -97,10 +99,44 @@ body {
 .infoProjects{
   margin: 40px;
   width: 40vw;
+  display: grid;
+}
+button{
+  /* size: 50px !important */
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
 }
 .form{
   margin-left: 30vw;
   width: 35vw;
+  background:white;
+  padding: 50px
+  
+} 
+.form-control{
+  background-color: rgba(144, 140, 140, 0.326) !important;
+}
+.background{
+background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.center{
+  margin-top: 50px;
+  text-align:center;
+
+}
+.ProjectPageIMG{
+height: 350px;
+}
+.projectContainer{
+  display: grid;
+  /* margin:20vw; */
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 @keyframes App-logo-spin {
   from {
