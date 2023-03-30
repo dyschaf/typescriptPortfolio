@@ -80,9 +80,9 @@ body {
 .mySkills{
 padding-left: 30px;
 }
-#about p,#project p{
-  padding-left: 100px;
-  padding-right: 100px;
+#about p,#project p,.background p{
+  padding-left: 75px;
+  padding-right: 75px;
 }
 .about div div, .blue div{
   /* width: 5vw; */
@@ -310,4 +310,12 @@ height: 350px;
       padding-top: 100px;
       font-size: 2em;
     }
+    #about p,#project p,.background p{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    #getToKnowMe,.mySkills{
+      text-align: center;
+    }
+
 }
