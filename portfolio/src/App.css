@@ -80,6 +80,10 @@ body {
 .mySkills{
 padding-left: 30px;
 }
+#about p,#project p{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .about div div, .blue div{
   /* width: 5vw; */
   padding: 16px;
@@ -249,13 +253,15 @@ height: 350px;
 }
   .infoProjects{
     text-align: left;
-    margin: 40px;
+    margin : 40px;
     /* margin-left:auto; */
     margin-left:25vw;;
     margin-right:25vw;;
     width: auto;
     display: grid;
+    align-items: center;
   }
+
   
 }
 @media screen and (max-width: 891px){
@@ -276,13 +282,21 @@ height: 350px;
     
   }
   .infoProjects{
-    text-align: left;
+    text-align: center;
     margin: 40px;
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
     display: grid;
   }
+  .infoProjects button{
+    justify-self: center;
+  /* size: 50px !important */
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
  
     .form{
       margin-left: 15vw;
