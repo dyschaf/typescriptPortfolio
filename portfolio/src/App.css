@@ -317,5 +317,8 @@ height: 350px;
     #getToKnowMe,.mySkills{
       text-align: center;
     }
+    .mySkills{
+      padding-left: 0;
+      }
 
 }
