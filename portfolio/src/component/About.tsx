@@ -4,6 +4,7 @@ function About(){
         "Typescript",
         "Python",
         "React",
+        "Redux",
         "Node",
         "Express",
         "Beautifulsoup",
