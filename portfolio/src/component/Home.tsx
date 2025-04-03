@@ -6,6 +6,7 @@ import Contact from './Contact';
 function Home(){
     return(
         <div id='home'>
+            {/* <Navbar/> */}
             <GreetMe/>
             <About/>
             <Projects/>

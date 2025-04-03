@@ -9,10 +9,19 @@ function About(){
         "Express",
         "Beautifulsoup",
         "Bootstrap",
+        "Local Storage",
+        "API",
         "Git",
         "HTML",
         "CSS",
         "Linux",
+        "Putty", 
+        "Postman", 
+        "Iotedge",
+        'Elastic',
+        'Grafana',
+        "GrayLogs",
+        "Modbus",
         
       ];
     return(

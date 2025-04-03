@@ -4,9 +4,22 @@ import ComparePhoneSpecs from "./img/Compare-Phone-Specs-1.png"
 import CryptocurrencyTradingPlatform from "./img/Cryptocurrency-Trading-Platform.png"
 import CardGameWar from "./img/Card-Game-War.png"
 import Portfolio from "./img/portfolio.png"
+import MovieDov from "./img/movie-dov.png"
 export const projects = [
   {
     id: 1,
+    title: "Movie-Dov",
+    description: "This site is a Movie and TV search engine made in TypeScript. Stil adding more fetures and design",
+    imgSrc: MovieDov,
+    url:'Movie-Dov',
+    ProjectPageMeetDescription:"This movie and TV show search engine fetches real-time data from an online database and saves search history in local storage, including last-watched episodes. It ensures a smooth experience with dynamic updates and will soon feature UI improvements, filters, a watchlist, and dark mode.",
+    projectLink:"https://github.com/dyschaf/MovieDov",
+    projectsDescription:"This movie and TV show search engine allows users to quickly find films and series by fetching real-time data from an online movie database API. It features local storage support, saving search history, last-watched episodes, and recent searches on the home screen for easy access. The app dynamically updates search results using the fetch API, ensuring a smooth, responsive experience. Future updates will enhance the UI design, introduce filtering options, a watchlist feature, dark mode, and mobile-friendly optimizations. While the core functionality is in place, the design is still a work in progress, with improvements planned to enhance usability and aesthetics.",
+    skillsUsed:["React","TypeScript","Bootsrtap","API","Local Storage","HTML","CSS","GIT","GitHub"],
+    liveLink:"https://movie-dov.vercel.app"
+  },
+  {
+    id: 2,
     title: "Portfolio",
     description: "Portfolio was created to show off my skills to potential employers.",
     imgSrc: Portfolio,
@@ -14,11 +27,11 @@ export const projects = [
     ProjectPageMeetDescription:"This is my show case to show off my work to potenal companies of some of my prevous projects.",
     projectLink:"https://github.com/dyschaf/typescriptPortfolio",
     projectsDescription:"After considerable effort and dedication, I am thrilled to announce the successful completion of my updated portfolio. In an effort to enhance my skills and broaden my knowledge, I undertook the task of teaching myself Typescript for the very first time, and I am proud to say that it was a challenging yet rewarding experience. This newly updated portfolio, which I have written with the React framework, serves as a testament to my unwavering commitment to self-improvement and growth as a developer. It is a tangible representation of the work I have done and the progress I have made throughout my career thus far. As I showcase this portfolio to potential employers, I am confident that it will serve as a testament to my skills and my dedication to my craft. I am excited to demonstrate the depth of my knowledge and expertise, and to prove that I am a valuable asset to any team. Overall, this project has been an immensely fulfilling endeavor, and I am excited to see where my continued growth and development will take me in the future.",
-    skillsUsed:["React","TypeScript","HTML","CSS","GIT","GitHub"],
+    skillsUsed:["React","TypeScript","Bootsrtap","HTML","CSS","GIT","GitHub"],
     liveLink:"https://typescript-portfolio-omega.vercel.app"
   },
   {
-    id: 2,
+    id: 3,
     title: "Compare Phone Specs",
     description: "Simple app that you can use to compare phones and see specs like when was this phone released, what's the price and how much battery it has.",
     imgSrc: ComparePhoneSpecs,
@@ -30,19 +43,19 @@ export const projects = [
     liveLink:"https://github.com/dyschaf/Final-Project"
   },
   {
-    id: 3,
+    id: 4,
     title: "Cryptocurrency Trading Platform",
     description: "This application is a crypto wallet simulator that keeps track of your bitcoin, ethereum or dollar. You can buy and sell between the three currencies.",
     imgSrc: CryptocurrencyTradingPlatform,
     url:"Cryptocurrency-Trading-Platform",
     ProjectPageMeetDescription:"This site I made with a friend we did this for our hackathon it was a crypto wallet that you can sell and buy between ETH BTC and USD.",
     projectLink:"https://github.com/shaul613/crypto_world_hackathon/",
-    projectsDescription:"I built this Cryptocurrency exchange simulator with a friend for a bootcamp hackathon at Developers Institute. We made a simple databsae with a few tables to store user information, login information, currency rates, and transactions. We used Node.JS for the application's backend and Postgres for as DBMS. At the home page, our website gives the user a choice between logging in or signing up. If the user chooses to create a new account, all the information entered gets saved in the user table in our database. By default we give each user 0.2 Bitcoin upon signup. If the user decides to log in with existing credentials, the entered information gets saved in the login table in our database as well as a unique login id and whether the login was successful. Once the user is logged in, they have the option to exchange between the differnt currencies we offer! So far we only offer Bitcoin, Etherium, and USDC, but hey... we're still new to this game, so please understand.",
+    projectsDescription:"I built this Cryptocurrency exchange simulator with a friend for a bootcamp hackathon at Developers Institute. We made a simple database with a few tables to store user information, login information, currency rates, and transactions. We used Node.JS for the application's backend and Postgres for as DBMS. At the home page, our website gives the user a choice between logging in or signing up. If the user chooses to create a new account, all the information entered gets saved in the user table in our database. By default we give each user 0.2 Bitcoin upon signup. If the user decides to log in with existing credentials, the entered information gets saved in the login table in our database as well as a unique login id and whether the login was successful. Once the user is logged in, they have the option to exchange between the differnt currencies we offer! So far we only offer Bitcoin, Etherium, and USDC, but hey... we're still new to this game, so please understand.",
     skillsUsed:["React","JavaScript","Node","Express","Postgres","HTML","CSS","GIT","GitHub"],
     liveLink:"https://github.com/shaul613/crypto_world_hackathon/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Card Game War",
     description: "This was my first project. It's a card game where the person with the higher card wins the round and the cards.",
     imgSrc:CardGameWar,
