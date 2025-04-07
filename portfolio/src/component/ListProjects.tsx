@@ -40,7 +40,7 @@ export const projects = [
     projectLink:"https://github.com/dyschaf/Final-Project",
     projectsDescription:"As a kid I loved to keep track of the latest hardware and software on phones. This inspired me to find an api that holds all the specs and display it on the page. First, you need sign up and then login using Express server with Node.JS for the application's backend and Postgres for as DBMS. Then with the React the user has two inputs that holds texts and I take the value of the input and attach it to the api. After you click search, the reseult of the fetch gets added to a state using Hooks to display the name of the phones relevent to the search. With a picture displayed you click the right phone that you want and it displays a table with all the specs.",
     skillsUsed:["React","JavaScript","Hooks","Node","Express","Postgres","HTML","CSS","GIT","GitHub"],
-    liveLink:"https://github.com/dyschaf/Final-Project"
+    // liveLink:"https://github.com/dyschaf/Final-Project"
   },
   {
     id: 4,
