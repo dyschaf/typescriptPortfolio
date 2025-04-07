@@ -23,9 +23,12 @@ function ProjectPage(props:any){
             </div>
             <br />
             <div>
-                <h1>See Live</h1>
+                
                 {props.liveLink && (
+                    <>
+                    <h1>See Live</h1>
                     <button onClick={() => window.open(props.liveLink)}>PROJECT LINK</button>
+                    </>
                 )}
                 <button onClick={()=>window.location.href ="/"}>GO BACK</button>
             </div>
