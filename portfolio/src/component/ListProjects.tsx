@@ -9,7 +9,7 @@ export const projects = [
   {
     id: 1,
     title: "Movie-Dov",
-    description: "This site is a Movie and TV search engine made in TypeScript. Stil adding more fetures and design",
+    description: "This site is a Movie and TV search engine made in TypeScript. Still adding more fetures and design",
     imgSrc: MovieDov,
     url:'Movie-Dov',
     ProjectPageMeetDescription:"This movie and TV show search engine fetches real-time data from an online database and saves search history in local storage, including last-watched episodes. It ensures a smooth experience with dynamic updates and will soon feature UI improvements, filters, a watchlist, and dark mode.",
@@ -52,7 +52,7 @@ export const projects = [
     projectLink:"https://github.com/shaul613/crypto_world_hackathon/",
     projectsDescription:"I built this Cryptocurrency exchange simulator with a friend for a bootcamp hackathon at Developers Institute. We made a simple database with a few tables to store user information, login information, currency rates, and transactions. We used Node.JS for the application's backend and Postgres for as DBMS. At the home page, our website gives the user a choice between logging in or signing up. If the user chooses to create a new account, all the information entered gets saved in the user table in our database. By default we give each user 0.2 Bitcoin upon signup. If the user decides to log in with existing credentials, the entered information gets saved in the login table in our database as well as a unique login id and whether the login was successful. Once the user is logged in, they have the option to exchange between the differnt currencies we offer! So far we only offer Bitcoin, Etherium, and USDC, but hey... we're still new to this game, so please understand.",
     skillsUsed:["React","JavaScript","Node","Express","Postgres","HTML","CSS","GIT","GitHub"],
-    liveLink:"https://github.com/shaul613/crypto_world_hackathon/"
+    // liveLink:"https://github.com/shaul613/crypto_world_hackathon/"
   },
   {
     id: 5,
