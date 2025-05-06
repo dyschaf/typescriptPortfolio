@@ -64,7 +64,7 @@ export const projects = [
     projectLink:"https://github.com/dyschaf/Hackathon",
     projectsDescription:`This was one of my first real projects writen in JavaScript. I used an array of objects to holds my cards. These object's also stored the value of each card and img background path. The first thing that runs is the shuffle that each object will be in random order, then splits the deck for player one and player two. On the page you can either click player one's button or player two's button and it causes the screen to show the first card of each player. Whoever wins gets both players object index 0 witch would be push in the back of the deck "array". When there is a tie, I built into the DOM a container holding "war container" it will displayed five cards and the only the bottom and the top card showing for each player. Then I set a set interval to wait three seconds to see which card the winner won and then pushes the cards to the winning player.`,
     skillsUsed:["JavaScript","HTML","CSS","GIT","GitHub"],
-    liveLink:"https://dyschaf.github.io/Hackathon/"
+    // liveLink:"https://dyschaf.github.io/Hackathon/"
   }
 ];
 
