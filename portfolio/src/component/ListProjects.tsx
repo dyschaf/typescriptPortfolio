@@ -18,6 +18,7 @@ export const projects = [
     skillsUsed:["React","TypeScript","Bootstrap","API","Local Storage","HTML","CSS","GIT","GitHub"],
     liveLink:"https://movie-dov.vercel.app"
   },
+  
   {
     id: 2,
     title: "Portfolio",
