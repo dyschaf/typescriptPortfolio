@@ -19,7 +19,6 @@ export const projects = [
     liveLink:"https://movie-dov.vercel.app"
   },
 
-  
   {
     id: 2,
     title: "Portfolio",
