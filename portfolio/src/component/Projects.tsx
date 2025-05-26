@@ -24,7 +24,6 @@ function Projects(){
           description={project.description}
           url={project.url}
         />
-        
       ))}
       </div>
         </>
