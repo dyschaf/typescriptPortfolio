@@ -9,16 +9,18 @@ import ErrorBoundary from './component/ErrorBoundary';
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useState, createContext } from "react";
 import { projects } from './component/ListProjects';
-
-
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
 
   return (
     <>
-  
+    <Analytics/>
+    <SpeedInsights/>
     <Nav_page/>
     <ErrorBoundary fallback={<div>Something went wrong!</div>}>
     <Routes>
+
       <Route path="/" element={<Home/>} />
       {projects.map(projects=> (
         <Route key={projects.id} path={`/${projects.url}`} element={<ProjectPage {...projects} />} />
