@@ -8,6 +8,7 @@ function Home(){
         <div id='home'>
             {/* <Navbar/> */}
             <GreetMe/>
+            
             <About/>
             <Projects/>
             <Contact />
